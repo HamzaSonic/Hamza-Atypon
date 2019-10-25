@@ -97,6 +97,7 @@ public class ListofStrings {
         for(int i=1;i<items.length;i++){
             if(tmp.compareTo(items[i])<=0) tmp=items[i];
         }
+        System.out.println();
         return tmp;
      }
 
